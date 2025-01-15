@@ -1,0 +1,21 @@
+name: New Rust Feature
+description: Please do not create feature requests.
+title: "[Rust] <Short Title>"
+labels: ["Rust"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Do not create feature requests!** ⚠️
+        This is a repository for tracking features, only the WISP team is authorized to create issues. [Check the roadmap here.](https://github.com/wisp-gg/feature-tracker/projects)
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: ✏️ Summary
+      description: Provide a brief summary of the feature.
+      placeholder: Describe the feature in one or two sentences...
+    validations:
+      required: true
